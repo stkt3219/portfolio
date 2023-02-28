@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+
+        <title>Portfolio</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <section class="hero" id="home">
+            <nav>
+                <div class="header-name"><a href="#home">Sarah Thomas</a></div>
+                <ul>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+            </nav>
+            <hr class="nav-break">
+            <div class="hero-space">
+                <div class="hero-text">
+                    <h1>Hi, I'm Sarah</h1>
+                    <!-- <h3>Front-End Web Developer</h3> -->
+                    <p>Developer with a passion for design.</p>
+                    <div class="socials">
+                        <button class="resume-bttn" onclick="location.href='src/media/Resume-Sarah Thomas.pdf'" target="_blank">Resumé</button>
+                        <a href="https://github.com/stkt3219"><img src="src/images/github.png" class="social-imgs"/></a>
+                        <a href="https://www.linkedin.com/in/sarah-thomas32"><img src="src/images/linkedin.png" class="social-imgs"/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section" id="about-me">
+            <div class="info">
+                <h2>About me</h2>
+                <p class="subtext1">I recently graduated from Kennesaw State University with a Degree in Computer Science and have a passion for front-end web design and development. I'm currently based in Atlanta, GA.</p><br>
+                <p class="subtext1">I'm excited to grow my skillset with the right company. Feel free to reach out in the contact box below if your interested in hiring! </p>
+            </div>
+            <div class="headshot-container">
+                <img src="src/images/headshot.png" class="headshot" alt="Sarah Thomas Headshot"/>
+            </div>
+        </section>
+        <section class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills"><div class="skills-icons"><i class="fi fi-brands-html5"></i></div>HTML</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-brands-css3-alt"></i></div>CSS</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-brands-js"></i></div>JavaScript</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-brands-java"></i></div>Java</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-brands-python"></i></div>Python</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-brands-atom"></i></div>React</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-rs-api"></i></div>Rest API</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-rr-code-branch"></i></div>Git</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-rs-database"></i></div>SQL</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-rr-users-alt"></i></div>Collaboration</div>
+                <div class="skills"><div class="skills-icons"><i class="fi fi-rr-bulb"></i></div>Problem Solving</div>
+            </div>
+        </section>
+        <hr class="page-break">
+        <section class="project-section" id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="slideshow">
+                        <div class="slide">
+                            <img src="src/images/robot.png" alt="Robot App Logo" style="width: 50%; height: 100%;"class="slide-img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="src/images/app-home.png" alt="App Homescreen" class="slide-img"/>
+                            <div class="img-txt">App Homescreen</div>
+                        </div>
+                        <div class="slide">
+                            <img src="src/images/app-remote.png" alt="App Remote screen" class="slide-img"/>
+                            <div class="img-txt">App Remote Screen</div>
+                        </div>
+                        <div class="slide">
+                            <img src="src/images/app-motions.png" alt="App Motions screen" class="slide-img"/>
+                            <div class="img-txt">App Motions Screen</div>
+                        </div>
+                        <div class="slide">
+                            <img src="src/images/app-motors.png" alt="App Motor screen" class="slide-img"/>
+                            <div class="img-txt">App Motor Screen</div>
+                        </div>  
+                        <div class="prev"><i class="fi fi-bs-angle-left"></i></div>
+                        <div class="next"><i class="fi fi-bs-angle-right"></i></div>
+                    </div> 
+                    <h3 style="margin-top: 10px;">Robot Control App</h3>
+                    <p class="subtext2">A React Native and Expo app that controls a UXA-90 humanoid robot - built for my senior group project alongside a REST API . The app sends HTTP requests to the API to control the robot.</p>
+                    <hr class="card-break">
+                    <div class="project-bttns-container">
+                        <a href="https://ccse.kennesaw.edu/computing-showcase/cday-programs/fall22c-day_winners.php"><button class="project-bttns">More Info</button></a>
+                        <a href="https://github.com/stkt3219/Robot-Control-App"><button class="project-bttns">View Code</button></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="src/images/placeholder.jpg" class="project-img"/>
+                    <h3 style="margin-top: 10px;">Personal Project</h3>
+                    <p class="subtext2">Currently working on building an internet rhythm game using HTML, CSS and vanilla JS. The game will allow the user to choose a song from a library and play along with it by tapping specific keys.</p>
+                    <hr class="card-break">
+                    <div class="project-bttns-container">
+                        <!-- <a href="https://github.com/stkt3219"><button class="project-bttns">More Info</button></a>
+                        <a href="https://github.com/stkt3219"><button class="project-bttns">View Code</button></a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="page-break2">
+        <footer id="contact-me">
+            <div class="contact-msg">
+                <h2 class="subtext3">Get in Touch!</h2>
+                <p class="subtext4">If you ever want to chat, send me a message here or you can find me on:</p>
+                <div class="socials2">
+                    <a href="https://github.com/stkt3219"><img src="src/images/github.png" class="social-imgs2" style="margin-right: 10px"/></a>
+                    <a href="https://www.linkedin.com/in/sarah-thomas32"><img src="src/images/linkedin.png" class="social-imgs2"/></a>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/sthom@sarah-thomas.me" method="POST">
+                <input type="text" name="first-name" class="input-name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+                <textarea type="text" name="message" class="input-msg"  placeholder="Your Message" required></textarea>
+                <input type="hidden" name="_next" value="https://sarah-thomas.me/thankyou.html">
+                <input type="hidden" name="_subject" value="New email!">
+                <button type="submit"><p style="color: rgba(4,27,24,0.8); font-size: 15px; font-family: 'Kanit'; font-weight: 400;">Send Message</p></button>
+            </form>
+        </footer>
+        <script src="src/app.js"></script>
+    </body>
+</html>
